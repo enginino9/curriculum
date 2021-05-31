@@ -13,13 +13,13 @@ public class Task1_5 {
         String[] fruits = {"みかん", "りんご", "ぶどう", "メロン"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
-        for(int i = 0; i < fruits.length; i++) {
+        for (int i = 0; i < fruits.length; i++) {
             System.out.println(fruits[i]);
         }
 
         // ③ 以下のwhile文の処理について、何をしているのかコメントを記入してください。
         /*
-        *  [ここに記入]1 から 100 までを出力させるwhile文
+        *  [ここに記入]1 から 100までを出力させるwhile文
         */
         int i = 1;
         while(i <= 100) {
@@ -39,10 +39,10 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-        for(int j = 1; j < 10; j++) {
+        for (int j = 1; j < 10; j++) {
             System.out.print(j + " ||");
-            for(int k = 1; k < 10; k++) {
-                System.out.print(" " + k + " |");
+            for (int k = 1; k < 10; k++) {
+                System.out.print(" " + j * k + " |");
             }
             System.out.println();
         }
